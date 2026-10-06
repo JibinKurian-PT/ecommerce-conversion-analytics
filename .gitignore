@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Large datasets
+data/raw/
+data/processed/
+
+# Ignore CSVs by default
+*.csv
+
+# Keep dashboard SQL output files
+!dashboard/data/
+!dashboard/data/*.csv
+
+# Environment / secrets
+.env
+.env.*
+
+# Temporary files
+*.log
+*.tmp
